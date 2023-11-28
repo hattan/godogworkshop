@@ -1,0 +1,6 @@
+time=2023-11-16T17:12:05.784-08:00 level=INFO msg=hello program_info.pid=91336 program_info.go_version=go1.21.3
+time=2023-11-16T17:12:05.784-08:00 level=WARN msg="Some warning" program_info.pid=91336 program_info.go_version=go1.21.3
+time=2023-11-16T17:12:05.784-08:00 level=ERROR msg="Something went wrong" program_info.pid=91336 program_info.go_version=go1.21.3
+time=2023-11-22T12:17:50.073-08:00 level=INFO msg=hello program_info.pid=56670 program_info.go_version=go1.21.3
+time=2023-11-22T12:17:50.075-08:00 level=WARN msg="Some warning" program_info.pid=56670 program_info.go_version=go1.21.3
+time=2023-11-22T12:17:50.075-08:00 level=ERROR msg="Something went wrong" program_info.pid=56670 program_info.go_version=go1.21.3

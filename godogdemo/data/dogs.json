@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "fido",
+        "age": 1,
+        "breed": "corgi"
+    },
+    {
+        "firstName": "bob",
+        "age": 2,
+        "breed": "frenchie"
+    },
+    {
+        "firstName": "snickers",
+        "age": 3,
+        "breed": "poodle"
+    }
+]
