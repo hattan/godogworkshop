@@ -1,7 +1,6 @@
 package animals
 
 import (
-	"errors"
 	"fmt"
 	"log/slog"
 )
@@ -12,9 +11,14 @@ type Dog struct {
 	DogBreed
 }
 
+type Dogs []*Dog
+
 func NewDog(name string, age int, breed DogBreed) (*Dog, error) {
 	if age <= 0 {
-		return nil, errors.New("age must be greater than zero")
+		return nil, fmt.Errorf("age must be greater than zero, %s", name)
+	}
+	if age > 35 {
+		return nil, fmt.Errorf("age must be 35 or younger, %s", name)
 	}
 
 	dog := Dog{
