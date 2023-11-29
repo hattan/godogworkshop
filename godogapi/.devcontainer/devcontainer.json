@@ -1,6 +1,6 @@
 {
 	"name": "Go",
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04", // Any generic, debian-based image.
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04", // Any generic, debian-based image (bullseye or jammy to be compatible with arm).
     "features": {
         "ghcr.io/devcontainers/features/go:1": {
             "version": "latest"
