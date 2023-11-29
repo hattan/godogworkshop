@@ -19,7 +19,7 @@ Note while you will be modifying the web api and cli, it is not expected that yo
 ## Challenges
 
 - [Challenge 1 - Refactor the GoDo SDK Demo](./challenge-1.md)
-
+- [Challenge 1 - Load dog data from a json file](./challenge-2.md)
 
 ### Resources:
 
