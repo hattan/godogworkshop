@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
+	animals "github.com/hattan/godog"
 	"github.com/hattan/godogapi/pkg/dogs"
 )
 
@@ -28,12 +29,8 @@ func setupRouter() *gin.Engine {
 	}))
 
 	authorized.POST("dog", func(c *gin.Context) {
-		var json struct {
-			Name  string `json:"name"`
-			Age   int    `json:"age"`
-			Breed string `json:"breed"`
-		}
-		bindErr := c.Bind(&json)
+		dog := animals.Dog{}
+		bindErr := c.Bind(&dog)
 		if bindErr != nil {
 			slog.Error(bindErr.Error())
 			return

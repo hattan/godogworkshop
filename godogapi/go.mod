@@ -4,7 +4,7 @@ go 1.21.3
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/hattan/godog v0.1.2
+	github.com/hattan/godog v0.1.5
 )
 
 require (
