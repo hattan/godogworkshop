@@ -69,7 +69,6 @@ Remove getDogs from main.go and add it to utils/dogloader.go. Make any adjustmen
 **Success Criteria:**
 
 - The getDogs method should return a Dogs type rather than the verbose slices of pointers.
-- Could we have used a type definition instead of a type alias? What's the distinction?
 
 --- 
 
