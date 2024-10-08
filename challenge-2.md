@@ -6,7 +6,7 @@ Start with inspecting the file data/dogs.json. We're going to modify the getDogs
 
 ## Task 1
 
-- Modify the GetDogs function so that it has a string parameter called file. Then change the GetDogs function to read the specified file and that it correct deserializes the json file into the necessary structs. Ensure calls to GetDogs passes in the correct path to the dogs.json file.
+- Modify the GetDogs function so that it has a string parameter called file. Then change the GetDogs function to read the specified file and that it correctly deserializes the json file into the necessary structs. Ensure calls to GetDogs passes in the correct path to the dogs.json file.
 
 **Success Criteria:**
 
