@@ -9,7 +9,7 @@
 
 ### Task 1
 
-Your first task is to modify the GoDog sdk (under pkg/animals) to add another age validation rule. The current implementation validates that a dogs age is a positive value. Your task is to add a validation check that ensures that the maximum age for a dog is 35 years old.
+Your first task is to modify the GoDog sdk (under pkg/animals) to add another age validation rule. The current implementation validates that a dogs age is a positive value. Your task is to add a validation check that ensures that the maximum age for a dog is 40 years old.
 
 - In main.go, update the getDogs function so that the dog named bob is 40 years old, then run the program again.
 
